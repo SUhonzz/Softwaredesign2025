@@ -1,0 +1,20 @@
+[project]
+name = "YMDUtil"
+version = "0.1.0"
+description = "Year-Month-Date Utility Library"
+authors = [
+    {name = "SUhonzz", email = "uh5864@mci4me.at"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+package-dir = "src"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
