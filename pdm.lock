@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:113619c6fddc9f2e3ce20fb3101cc5467144b90494a72a8138efe49515d67d88"
+content_hash = "sha256:ad58a49e56b1d87c8b29eecda5d32aec0733bbd0fd42d0d79795fc26cb8855f3"
 
 [[metadata.targets]]
 requires_python = "==3.12.*"
@@ -1623,3 +1623,11 @@ files = [
     {file = "widgetsnbextension-4.0.14-py3-none-any.whl", hash = "sha256:4875a9eaf72fbf5079dc372a51a9f268fc38d46f767cbf85c43a36da5cb9b575"},
     {file = "widgetsnbextension-4.0.14.tar.gz", hash = "sha256:a3629b04e3edb893212df862038c7232f62973373869db5084aed739b437b5af"},
 ]
+
+[[package]]
+name = "ymdutil"
+version = "0.1.0"
+requires_python = ">=3.10"
+path = "./libs/YMDUtil"
+summary = "Year-Month-Date Utility Library"
+groups = ["default"]
