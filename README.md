@@ -38,17 +38,17 @@ pdm run python
 
 
 ## 🧪 Dev 
-# Add local lib in editable mode
+### Add local lib in editable mode
 ```bash
 pdm add -d -e libs/YMDUtil
 ```
 
-# Run tests
+### Run tests
 ```bash
 pdm run pytest
 ```
 
-# Launch notebooks
+### Launch notebooks
 ```bash
 pdm run jupyter lab
 
