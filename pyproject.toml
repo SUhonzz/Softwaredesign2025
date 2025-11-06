@@ -5,7 +5,7 @@ description = "Softwaredesign2025 Repo"
 authors = [
     {name = "SUhonzz", email = "uh5864@mci4me.at"},
 ]
-dependencies = ["pandas>=2.3.3", "jupyter>=1.1.1", "requests>=2.32.5", "YMDUtil @ file:///${PROJECT_ROOT}/libs/YMDUtil", "matplotlib>=3.10.7", "plotly>=6.4.0"]
+dependencies = ["pandas>=2.3.3", "jupyter>=1.1.1", "requests>=2.32.5", "YMDUtil @ file:///${PROJECT_ROOT}/libs/YMDUtil", "matplotlib>=3.10.7", "plotly>=6.4.0", "pydantic>=2.12.4"]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
